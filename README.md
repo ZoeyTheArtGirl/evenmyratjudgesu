@@ -8,4 +8,5 @@ Also, I know I said I wouldn't update this, but uploading 'unknown source' art w
 
 I wasn't trying to overclarify, but I just wanted to give some context. 
 Also, new art coming soon!
+
 -ZoeyTheArtGirl
