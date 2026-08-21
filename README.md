@@ -12,3 +12,7 @@ I wasn't trying to overclarify, but I just wanted to give some context.
 Also, new art coming soon!
 
 -ZoeyTheArtGirl
+
+'Kay, I know I said I wouldn't update this, but Threads suspended my account (Wrongful Bot Flagging), so gotta fix that.
+
+-ZoeyTheArtGirl
