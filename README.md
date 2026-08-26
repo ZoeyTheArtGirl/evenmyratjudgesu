@@ -16,3 +16,6 @@ Also, new art coming soon!
 'Kay, I know I said I wouldn't update this, but Threads suspended my account (Wrongful Bot Flagging), so gotta fix that.
 
 -ZoeyTheArtGirl
+
+So, Meta sucks. They perm banned me, LOL, so here's my plan. Same (maybe slightly different) username, different email, then repost all of it, including some new art coming up, and my Maze and Yuki art.
+-ZoeyTheArtGirl
