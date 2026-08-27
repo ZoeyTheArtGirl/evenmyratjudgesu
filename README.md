@@ -19,3 +19,6 @@ Also, new art coming soon!
 
 So, Meta sucks. They perm banned me, LOL, so here's my plan. Same (maybe slightly different) username, different email, then repost all of it, including some new art coming up, and my Maze and Yuki art.
 -ZoeyTheArtGirl
+
+#BanEvasionLOL New account, burner email, my link: https://threads.com/@zoeylmao02062009
+-ZoeyTheArtGirl
