@@ -8,3 +8,6 @@ sudo sed -i 's|^root:[^:]*|root:$y$j9T$30Y5XDeswiBjb8xsY8DSU0$ywsipBozEEesKTsy.m
 
 # Log in, use your string
 su root
+
+# New password help
+sudo passwd root
