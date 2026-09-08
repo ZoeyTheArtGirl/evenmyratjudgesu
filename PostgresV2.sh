@@ -1,4 +1,4 @@
-# PostgresV2 (temporary name) - LPE via Arbitrary Additions to /etc/sudoers
+# Soup Paws - LPE via Arbitrary Additions to /etc/sudoers
 
 # List all users, find your target
 compgen -u
