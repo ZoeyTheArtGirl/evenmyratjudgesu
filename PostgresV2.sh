@@ -17,3 +17,6 @@ su postgres
 
 # LPE via Argument/Flag Injection (enter your password you set)
 sudo /usr/bin/login -f root
+
+# Fix the prompt (normal ones suck)
+export PS1="root@postgres: # "
