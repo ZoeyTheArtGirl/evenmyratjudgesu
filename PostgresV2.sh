@@ -3,6 +3,9 @@
 # List all users, find your target
 compgen -u
 
+# Set your password
+mkpasswd -m yescrypt "(password)"
+
 # Arbitrarily change their password (yescrypt, LOLFAO)
 sudo sed -i 's|^(bro's username goes here):[^:]*|(bro's username goes here):(string here)|' /etc/shadow 
 
