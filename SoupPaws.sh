@@ -1,4 +1,4 @@
-# Soup Paws - LPE via Arbitrary Additions to /etc/sudoers
+# Soup Paws - LPE via Arbitrary Additions to /etc/sudoers (Google Cloud Shell)
 
 # List all users, find your target
 compgen -u
