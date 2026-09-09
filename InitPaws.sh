@@ -1,3 +1,4 @@
+# InitPaws - Local Privilege Escalation via Double Quoted sudo /bin/bash -c call.
 
 # History expansion breaks the script, so it needs to leave
 set +H
