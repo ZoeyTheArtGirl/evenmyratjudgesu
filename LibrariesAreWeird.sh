@@ -1,4 +1,4 @@
-cat << 'EOF' > /home/coconutrepairs/LibrariesAreWeird.sh
+cat << 'EOF' > /$HOME/LibrariesAreWeird.sh
 # LibrariesAreWeird - for once, not a bug!
 
 # First time compiling C ever went well - Bash rules! 
@@ -41,7 +41,7 @@ ls -l LibrariesAreWeird
 EOF
 
 # Make it executable
-chmod +x /home/coconutrepairs/LibrariesAreWeird.sh
+chmod +x /$HOME/LibrariesAreWeird.sh
 
 # Run the binary, you should get a (root) shell
 ./LibrariesAreWeird
