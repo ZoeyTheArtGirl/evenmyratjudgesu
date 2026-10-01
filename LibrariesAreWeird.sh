@@ -30,7 +30,6 @@ gcc bash.c -o LibrariesAreWeird # Compile, check perms in a sec.
 ls -l LibrariesAreWeird # Now we check perms, LOL.
 
 # Delete bash.c, LOL
-sleep 10;
 rm bash.c
 
 # Add SetUID perms - check to verify
