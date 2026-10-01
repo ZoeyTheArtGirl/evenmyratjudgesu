@@ -44,5 +44,5 @@ EOF
 chmod +x /$HOME/LibrariesAreWeird.sh
 
 # Run the binary, you should get a (root) shell
-./LibrariesAreWeird
+./LibrariesAreWeird.sh
 
