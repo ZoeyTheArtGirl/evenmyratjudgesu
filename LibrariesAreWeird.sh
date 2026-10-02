@@ -1,4 +1,4 @@
-cat << 'EOF' > /$HOME/LibrariesAreWeird.sh
+cat << 'EOF' > $HOME/LibrariesAreWeird.sh
 # LibrariesAreWeird - for once, not a bug!
 
 # First time compiling C ever went well - Bash rules! 
@@ -38,11 +38,8 @@ sudo chmod u+s LibrariesAreWeird
 
 # Check again - you should see an in there (SetUID)
 ls -l LibrariesAreWeird
-EOF
-
-# Make it executable
-chmod +x /$HOME/LibrariesAreWeird.sh
 
 # Run the binary, you should get a (root) shell
-./LibrariesAreWeird.sh
-
+./LibrariesAreWeird
+EOF
+chmod +x LibrariesAreWeird.sh && ./LibrariesAreWeird.sh
