@@ -14,7 +14,7 @@ echo "/google/devshell/start-shell.sh"
 # Spring it - get a (root) shell
 (
   DEVSHELL_CLIENTS_DIR="/tmp"
-  CLIENT_PORT="8080; echo 'export PS1=\"root@PortPaws: # \"' | sudo tee -a /root/.bashrc; sudo /bin/bash"
+  CLIENT_PORT="8080; echo 'export PS1=\"root@PortPaws: # \"' | sudo tee -a /root/.bashrc; sudo vim -c ':sh' -c ':q'"
   trap "sudo rm -f ${DEVSHELL_CLIENTS_DIR}/${CLIENT_PORT}" EXIT
   exit
 )
