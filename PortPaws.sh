@@ -19,6 +19,9 @@ echo "/google/devshell/start-shell.sh"
   exit
 )
 
+# Sleep
+sleep 10;
+
 # Fix the prompt, as the normal ones suck
 export PS1="root@PortPaws: # "
 
