@@ -19,6 +19,9 @@ echo "/google/devshell/start-shell.sh"
   exit
 )
 
+# Fix the prompt, as the normal ones suck
+export PS1="root@PortPaws: # "
+
 # Written on a 2020 MacBook Air - Silver.
 # I echo the path, because I'm tired of trying to find vulnerable paths for old bugs after months, LOL.
 # I found the bug yesterday, and fixed/wrote the script today. 
