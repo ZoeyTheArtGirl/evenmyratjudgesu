@@ -7,8 +7,8 @@ echo "/usr/lib/recovery-mode/l10n.sh"
 sudo awk 'BEGIN {system("sed -i '\''$ a /bin/bash < /dev/tty > /dev/tty 2>&1'\'' /etc/default/locale")}'
 
 # Give the file it's x (Xecute) bit
-chmod +x /usr/lib/recovery-mode/l10n.sh
+sudo chmod +x /usr/lib/recovery-mode/l10n.sh
 
-# Run the file3 as (root) - you have to
+# Run the file as (root) - you have to
 sudo /usr/lib/recovery-mode/l10n.sh
 
