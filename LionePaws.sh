@@ -1,4 +1,4 @@
-# LionePaws - Local Privilege Escalation via blind sourcing
+# LionePaws - Local Privilege Escalation via blind sourcing (Ubuntu)
 
 # Echo the path
 echo "/usr/lib/recovery-mode/l10n.sh"
