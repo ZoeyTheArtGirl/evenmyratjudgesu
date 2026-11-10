@@ -1,7 +1,7 @@
 // Copyright (C) Zoey 'May' Franklin, nightshade, Kasane Teto & GUMI
 
 // Skate 'n' Dash (Demo) - billy loomis & IDONTWANNADIE Inspo
-// Skate 'n' Dash - ZoeyLMAO2009 ft. Kasane Teto and GUMI
+// Skate 'n' Dash (Demo) - ZoeyLMAO2009 ft. Kasane Teto and GUMI
 
 #include <stdio.h>
 #include <stdlib.h>
