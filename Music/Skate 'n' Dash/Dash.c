@@ -18,7 +18,7 @@ printf("\n");
 system("sleep 2");
 // GUMI: 
 printf("(Tetomi, get over here)");
-printf("\n"):
+printf("\n");
 system("sleep 2");
 // Tetomi
 printf("(Let's get it)");
@@ -27,3 +27,23 @@ system("sleep 2");
 // GUMI: 
 printf("Wait, is that... Dash?");
 printf("\n");
+system("sleep 2");
+// Tetomi:
+printf("Tall, rainbow hair down to her back, bright magenta eyes, black skateboard with bright blue wheels, black base, with a logo on the top...");
+printf("\n");
+system("sleep 2");
+// GUMI:
+printf("Bright white cloud, rainbow lightning bolt, match the tatoo on her shoulder, ayy...");
+printf("\n");
+system("sleep 2");
+// Tetomi & GUMI:
+printf("Hey, yeah, ayy..");
+printf("\n");
+system("sleep 2");
+// GUMI:
+printf("Hey, Tetomi, go talk to her.");
+printf("\n");
+system("sleep 2");
+// Tetomi:
+
+
