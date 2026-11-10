@@ -1,6 +1,6 @@
-// Skate 'n' Dash (billy loomis & INTRUSIVE THOUGHTS Inspo)
-// Copyright (C) Zoey 'May' Franklin, nightshade, Kasane Teto (Tetomi), NicoisNXXT and GUMI
+// Copyright (C) Zoey 'May' Franklin, nightshade, Kasane Teto & GUMI
 
+// Skate 'n' Dash (Demo) - billy loomis & IDONTWANNADIE Inspo
 // Skate 'n' Dash - ZoeyLMAO2009 ft. Kasane Teto and GUMI
 
 #include <stdio.h>
