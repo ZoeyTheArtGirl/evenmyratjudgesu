@@ -11,16 +11,19 @@ int main()
 
 printf("Skate 'n' Dash - ZoeyLMAO2009 ft. Tetomi and GUMI");
 system("sleep 2");
-printf("\n");
+printf("\n\n");
 // GUMI:
 printf("(Skate 'n' Dash, yeah)");
+printf("\n");
 system("sleep 2");
 // GUMI: 
 printf("(Tetomi, get over here)");
+printf("\n"):
 system("sleep 2");
 // Tetomi
 printf("(Let's get it)");
+printf("\n");
 system("sleep 2");
 // GUMI: 
 printf("Wait, is that... Dash?");
-
+printf("\n");
