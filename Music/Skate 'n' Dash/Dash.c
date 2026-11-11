@@ -37,7 +37,7 @@ printf("Bright white cloud, rainbow lightning bolt, match the tatoo on her shoul
 printf("\n");
 system("sleep 2");
 // Tetomi & GUMI:
-printf("Hey, yeah, ayy..");
+printf("(Hey! Let's go!)");
 printf("\n");
 system("sleep 2");
 // GUMI:
@@ -45,5 +45,3 @@ printf("Hey, Tetomi, go talk to her.");
 printf("\n");
 system("sleep 2");
 // Tetomi:
-
-
