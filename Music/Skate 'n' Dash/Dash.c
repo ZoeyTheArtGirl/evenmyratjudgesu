@@ -22,7 +22,7 @@ printf("\n");
 system("sleep 2");
 // Tetomi
 printf("(Let's get it)");
-printf("\n");
+printf("\n\n");
 system("sleep 2");
 // GUMI: 
 printf("Wait, is that... Dash?");
@@ -38,10 +38,18 @@ printf("\n");
 system("sleep 2");
 // Tetomi & GUMI:
 printf("(Hey! Let's go!)");
-printf("\n");
+printf("\n\n");
 system("sleep 2");
 // GUMI:
 printf("Hey, Tetomi, go talk to her.");
 printf("\n");
 system("sleep 2");
 // Tetomi:
+printf(" ");
+printf("\n");
+system("sleep 2");
+// Tetomi:
+printf(" ");
+printf("\n");
+system("sleep 2");
+// GUMI:
