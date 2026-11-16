@@ -45,7 +45,7 @@ printf("Hey, Tetomi, go talk to her.");
 printf("\n");
 system("sleep 2");
 // Tetomi:
-printf("Huh? ");
+printf("Huh?");
 printf("\n");
 system("sleep 2");
 // GUMI:
