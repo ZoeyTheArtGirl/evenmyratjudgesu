@@ -14,3 +14,6 @@ printf("Tetomi, Miku & Ketchup - ZoeyLMAO2009 ft. Tetomi and Hatsune Miku");
 printf("\n\n");
 system("sleep 2");
 // Clover:
+
+
+// WON'T START THIS ONE YET - WORKING ON SOMETHING ELSE THAT I ACTUALLY CAN FINISH QUICKLY.
