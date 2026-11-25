@@ -10,7 +10,7 @@ int main()
 
 {
 
-printf("Kinda Scared To Leak This, But... (Demo)");
+printf("Kinda Scared To Leak This, But... (Demo) - ZoeyLMAO2009 ft. Clover");
 system("sleep 2");
 printf("\n\n");
 
